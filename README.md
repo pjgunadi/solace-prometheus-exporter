@@ -85,7 +85,6 @@ Get the same result as the legacy `solace-det` endpoint, but from a specific bro
 | Redundancy (only for HA broker)       | no                  | no                    | dont harm broker                           | show redundancy                                                      | software, appliance |
 | ConfigSyncRouter (only for HA broker) | no                  | no                    | dont harm broker                           | show config-sync database router                                     | software, appliance |
 | Replication (only for DR broker)      | no                  | no                    | dont harm broker                           | show replication stats                                               | software, appliance |
-
 | Vpn                                   | yes                 | no                    | dont harm broker                           | show message-vpn vpnFilter                                           | software, appliance |
 | VpnReplication                        | yes                 | no                    | dont harm broker                           | show message-vpn vpnFilter replication                               | software, appliance |
 | ConfigSyncVpn (only for HA broker)    | yes                 | no                    | dont harm broker                           | show config-sync database message-vpn vpnFilter                      | software, appliance |
